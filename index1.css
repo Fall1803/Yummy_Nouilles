@@ -1,0 +1,140 @@
+:root {
+    /* Colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --black: #000000;
+    --white: #FFFFFF;
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+
+body {
+    background-color: var(--light-grey);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+}
+
+h1 {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    color: var(--black);
+    font-size: 2em;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+    text-align: center;
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.188rem;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.nav ul
+{
+	margin: 0px;
+    margin-top: -45px;
+	padding:0px;
+	/*background: white;*/
+	list-style: none;
+    font-size: 2%;
+
+}
+
+.nav a
+{   margin-top:10px;
+	padding: 10px;
+	display: block;
+	text-align: justify;
+	text-decoration: none;
+	color: #444D56;
+	
+}
+
+.nav .menu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+    margin-left: 50px;
+    font-size:0.5em;
+}
+
+.logot
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding:0px;
+}
+.logo
+{   display: block;
+	text-align: left;
+	text-decoration: none;
+    width: 30px;
+    
+}
+.p{
+    margin-left: 100px;
+    margin-top: -45px;
+    font-size: 1em;
+}
+ .click{
+        background-color:#000000;
+        margin-left: 100px;
+        color:white;
+        margin-bottom: -50px;
+        padding: 10px;
+ } 
+ #Logo{
+        width: 200px;
+       
+        display:block;
+        margin-left: auto;
+        justify-content:center;
+        padding-right: 40%;
+        margin-top: -160px;
+ }
+
+.tof{
+    padding: 100px;
+    padding-top: -80px;
+
+}
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
